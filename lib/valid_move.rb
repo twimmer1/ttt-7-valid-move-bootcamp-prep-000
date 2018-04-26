@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 
-ef valid_move?(board, index)
+def valid_move?(board, index)
   if position_taken?(board, index) == true
     return false
   end
